@@ -1,1 +1,1 @@
-https://izan2020.github.io/cek_khodam_web/
+inspired by : https://izan2020.github.io/cek_khodam_web/
