@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+body {
+    background-image: url(assets/kodam.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    font-family: "Oswald", sans-serif;
+    color: white;    
+}
+
+@media (max-width: 810px) {
+    body {
+        align-items: center;
+    }    
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #909;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    white;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    white;
+}
+
+
+/* First Content */
+
+#content-1 {    
+    margin-left: 18vh;
+    transition: opacity 0.5s ease-in-out;
+}
+
+@media (max-width: 810px) {
+    #content-1 {    
+        margin-left: 0vh;
+        
+    }
+}
+
+#content-1 h1 {
+    line-height:0;
+}
+
+#content-1 h1:nth-child(2) {
+    font-size: 140px;       
+}
+
+#btn-continue {
+    text-decoration: none;
+    color: white;
+    color: bisque;
+    cursor: pointer;
+}
+
+@media (max-width: 650px)  {
+    #content-1 h1:nth-child(2) {
+        font-size: 80px;
+    }
+    #content-1 h1:nth-child(1) {
+        font-size: 20px;
+    }
+}
+
+/* Second Content */
+
+#content-2 {
+    opacity: 0;
+    display: none;
+    margin-left: 18vh;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+#content-2 h1 {
+    color: bisque;
+    line-height:0.4;    
+    font-size: 62px;
+}
+
+#content-2 p {
+    line-height:0.4;    
+    font-weight: 300;
+}
+
+#form-name {    
+    display: flex;
+    flex-direction: row;    
+}
+
+
+input {
+    margin-top: 32px;
+    padding-left: 5px;    
+    height: 32px;
+    width: 222px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.55);
+    color: white;
+    border: none;
+}
+
+#btn-continue-2 {
+    margin-top: 22px;
+    color: white;    
+    cursor: pointer;
+    transition: .3s;
+}
+
+#btn-continue-2:hover {
+    color: bisque;
+}
+
+input:nth-child(2) {
+    margin-left: 12px;
+}
+
+@media (max-width: 630px)  {
+    #content-2 {        
+        margin-left: 0vh;            
+    }
+    #form-name {    
+        display: flex;
+        flex-direction: column; 
+        
+    }
+    input:nth-child(2) {
+        margin-left: 0;
+    }
+    
+}
+
+
+/* Generating */
+#content-3 {
+    opacity: 0;
+    display: none;
+    margin-left: 18vh;
+    transition: opacity 0.5s ease-in-out;
+}
+
+@media (max-width: 810px) {
+    #content-3 {    
+        margin-left: 42vh;
+        
+    }
+}
+
+#content-3 h1 {
+    color: bisque;
+    line-height:1;    
+    font-size: 62px;
+    width: 700px;
+}
+
+@media (max-width: 650px)  {
+    #content-3 h1 {
+        
+        font-size: 50px;
+        width: 700px;
+    }
+}
+
+#content-3 p {
+    line-height:0.4;    
+    font-weight: 300;
+}
+
+#btn-continue-3 {
+    display: none;
+    color: white;    
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+#btn-continue-3:hover {
+    color: bisque;
+}

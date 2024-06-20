@@ -1,1 +1,1 @@
-# cek-khodamlu
+https://izan2020.github.io/cek_khodam_web/
